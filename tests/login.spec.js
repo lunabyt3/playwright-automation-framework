@@ -13,7 +13,7 @@ test('User can login successfully', async ({ page }) => {
     await expect(page).toHaveURL(/inventory/);
 
     await page.screenshot({
-        path: 'login-success.png'
+        path: 'screenshots/login-success.png'
     });
 
 });
